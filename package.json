@@ -1,0 +1,23 @@
+{
+  "name": "opd-service",
+  "version": "1.0.0",
+  "description": "hdfc opd trigger",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K.V.Rao",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/cloud-sql-connector": "^1.2.2",
+    "@google-cloud/secret-manager": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "knex": "^3.1.0",
+    "nodemon": "^3.0.3"
+  }
+}
